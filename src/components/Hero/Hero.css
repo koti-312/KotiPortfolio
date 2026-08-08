@@ -1,0 +1,195 @@
+.hero-section {
+  background-color: #f3f4f6;
+  padding: 190px 120px 60px;
+  min-height: 90vh;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.name {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.developer-name {
+  color: blue;
+  font-weight: 700;
+}
+
+.hero-content h2 {
+  font-size: 40px;
+  color: rgba(10, 5, 5, 0.616);
+}
+
+.hero-description {
+  font-size: 24px;
+  max-width: 800px;
+  line-height: 1.6;
+  color: rgb(141, 121, 121);
+}
+
+.profile-photo img {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 60%;
+  border: 10px solid rgb(63, 63, 177);
+
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.hero-buttons a {
+  padding: 25px;
+  font-size: 22px;
+  border-radius: 12px;
+  cursor: pointer;
+  background: white;
+  color: blue;
+  border: 3px solid #2563eb;
+  text-decoration: none;
+}
+
+.hero-buttons a:hover {
+  background: #2563eb;
+  color: white;
+  transition: 0.3s ease;
+}
+
+
+/* TABLET */
+@media screen and (max-width: 1024px) {
+  .hero-section {
+    padding: 150px 60px 60px;
+    min-height: auto;
+  }
+
+  .hero-content {
+    gap: 40px;
+  }
+
+  .name {
+    font-size: 46px;
+  }
+
+  .hero-content h2 {
+    font-size: 30px;
+  }
+
+  .hero-description {
+    font-size: 20px;
+    max-width: 100%;
+  }
+
+  .profile-photo img {
+    height: 380px;
+  }
+
+  .hero-buttons a {
+    padding: 18px 22px;
+    font-size: 18px;
+  }
+}
+
+/* MOBILE*/
+@media screen and (max-width: 768px) {
+  .hero-section {
+    padding: 120px 30px 50px;
+  }
+
+  .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .hero-text {
+    align-items: center;
+  }
+
+  .name {
+    font-size: 34px;
+  }
+
+  .hero-content h2 {
+    font-size: 22px;
+  }
+
+  .hero-description {
+    font-size: 17px;
+  }
+
+  .profile-photo img {
+    height: 260px;
+    width: 260px;
+    border-width: 6px;
+  }
+
+  .hero-buttons {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .hero-buttons a {
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .hero-section {
+    padding: 100px 20px 40px;
+  }
+
+  .name {
+    font-size: 26px;
+  }
+
+  .hero-content h2 {
+    font-size: 18px;
+  }
+
+  .hero-description {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .profile-photo img {
+    height: 200px;
+    width: 200px;
+    border-width: 4px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+  }
+
+  .hero-buttons a {
+    text-align: center;
+    width: 100%;
+    padding: 14px;
+  }
+}

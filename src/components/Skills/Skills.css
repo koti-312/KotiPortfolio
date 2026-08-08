@@ -1,0 +1,146 @@
+.skills-section {
+  padding: 190px 120px 60px;
+  background-color: #f3f4f6;
+}
+
+.skill-content {
+  text-align: center;
+  line-height: 1.6;
+}
+
+.skill-content h1 {
+  color: black;
+  font-size: 40px;
+}
+
+.skill-content span {
+  color: blue;
+}
+
+.skill-content p {
+  font-size: 24px;
+  color: grey;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 6rem;
+  justify-items: center;
+
+}
+
+.skills-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills-card h2 {
+  font-size: 35px;
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.tech-skills {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tech-skills span {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* TABLET */
+@media screen and (max-width: 1024px) {
+  .skills-section {
+    padding: 140px 60px 60px;
+  }
+
+  .skill-content h1 {
+    font-size: 32px;
+  }
+
+  .skill-content p {
+    font-size: 20px;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+    margin-top: 4rem;
+  }
+
+  .skills-card h2 {
+    font-size: 28px;
+  }
+
+  .tech-skills span {
+    font-size: 20px;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  .skills-section {
+    padding: 100px 30px 50px;
+  }
+
+  .skill-content h1 {
+    font-size: 26px;
+  }
+
+  .skill-content p {
+    font-size: 17px;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+    row-gap: 2.5rem;
+    margin-top: 3rem;
+  }
+
+  .skills-card {
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .skills-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .tech-skills {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .tech-skills span {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills-section {
+    padding: 80px 20px 40px;
+  }
+
+  .skill-content h1 {
+    font-size: 22px;
+  }
+
+  .skill-content p {
+    font-size: 15px;
+  }
+
+  .skills-card h2 {
+    font-size: 20px;
+  }
+
+  .tech-skills span {
+    font-size: 15px;
+  }
+}
