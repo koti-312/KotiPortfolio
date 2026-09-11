@@ -1,9 +1,9 @@
-# React Developer Portfolio | Koteswar Singh
+# MERN Stack Developer | Koteswar Singh
 
 A fully responsive personal portfolio website built with React, showcasing my skills, projects, and experience as a Frontend React Developer.
 
-🔗 **Live Demo:**  [https://koti-portfolio-6j7tua501-koteswar-singhs-projects.vercel.app/]
-📂 **Repository:** [https://github.com/koti-312/koti-portfolio.git]
+🔗 **Live Demo:** [https://koti-portfolio.vercel.app]
+📂 **Repository:** [https://github.com/koti-312/koti-portfolio]
 
 ---
 
@@ -39,7 +39,7 @@ A fully responsive personal portfolio website built with React, showcasing my sk
 | **About** | Background summary, skills checklist, and resume download |
 | **Skills** | Grid layout of technical skills grouped by category |
 | **Projects** | Card-based showcase of projects with tech stack tags and links |
-| **Contact** | Contact information + a working contact form |
+| **Contact** | Contact information and a working contact form |
 | **Footer** | Logo, quick links, social media icons, and copyright |
 
 ---
@@ -60,6 +60,7 @@ The site is built mobile-first with the following breakpoints:
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - npm or yarn
 
@@ -70,7 +71,7 @@ The site is built mobile-first with the following breakpoints:
 git clone https://github.com/koti-312/koti-portfolio.git
 
 # Navigate into the project directory
-cd portfolio
+cd koti-portfolio
 
 # Install dependencies
 npm install
