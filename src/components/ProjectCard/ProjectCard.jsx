@@ -20,12 +20,12 @@ const ProjectCard = () => {
         },
         {
             id: 2,
-            title: "Todo List App",
+            title: "Finance Management Dashboard",
             image: project2,
-            description: "A responsive task management application with CRUD operations.",
-            technologies: ["React.js"],
-            github: "https://github.com/koti-312/Todo-List",
-            live: "https://todo-list-app-orpin-xi.vercel.app"
+            description: "A comprehensive dashboard for managing personal or business finances with data visualization and reporting features.",
+            technologies: ["React.js", "Node.js", "MongoDB"],
+            github: "https://github.com/koti-312/FinanceManagementDashboard",
+            live: "https://finance-management-dashboard-rust.vercel.app"
         },
 
         {
@@ -52,7 +52,7 @@ const ProjectCard = () => {
                 <div className='project-cards'>
                     {
                         projects.map((project) => (
-                            <div className='projects-show' key={project.id} data-aos="fade-up"  data-aos-delay={project.id * 100}>
+                            <div className='projects-show' key={project.id} data-aos="fade-up" data-aos-delay={project.id * 100}>
                                 <img src={project.image} alt={project.title} />
                                 <h3>{project.title}</h3>
                                 <p>{project.description}</p>
