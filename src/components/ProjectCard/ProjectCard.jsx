@@ -14,7 +14,7 @@ const ProjectCard = () => {
             title: "Ecommerce website",
             image: project1,
             description: "A full-featured online shopping website with authentication, cart, and product management.",
-            technologies: ["React.js", "Node.js", "MongoDB"],
+            technologies: ["React.js", "Node.js","Express", "MongoDB"],
             github: "https://github.com/koti-312/E-commerce-app",
             live: "https://e-commerce-app-frontend-zeta-seven.vercel.app"
         },
@@ -23,7 +23,7 @@ const ProjectCard = () => {
             title: "Finance Management Dashboard",
             image: project2,
             description: "A comprehensive dashboard for managing personal or business finances with data visualization and reporting features.",
-            technologies: ["React.js", "Node.js", "MongoDB"],
+            technologies: ["React.js", "Node.js","Express", "MongoDB"],
             github: "https://github.com/koti-312/FinanceManagementDashboard",
             live: "https://finance-management-dashboard-rust.vercel.app"
         },
