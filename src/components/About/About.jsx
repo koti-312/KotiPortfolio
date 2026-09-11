@@ -11,16 +11,11 @@ const About = () => {
             <div className='about-content'>
                 <h3>Who am I?</h3>
                 <p className='about-description'>
-                    I'm a passionate Frontend React Developer from Chennai with
-                    hands-on experience building modern and responsive web applications.
-                    I specialize in React.js, JavaScript, HTML5, and CSS3, and have
-                    also worked with Node.js, Express.js, and MongoDB to develop REST APIs,
-                    implement JWT authentication, and build full-stack projects.
+                    I'm a React.js and MERN Stack Developer from Chennai with hands-on experience building responsive and full-stack web applications. I specialize in React.js, JavaScript, HTML5, and CSS3, along with Node.js, Express.js, and MongoDB for backend development.
                 </p>
 
                 <p className='about-tagline'>
-                    I enjoy solving real-world problems through clean, scalable code and I'm eager
-                    to contribute, learn, and grow as a Frontend Developer.
+                    I have experience building REST APIs, implementing JWT authentication, integrating third-party APIs, and developing database-driven applications. I enjoy solving real-world problems through clean and maintainable code, and I'm eager to contribute, learn, and grow as a software developer.
                 </p>
 
                 <div className='about-tags'>
@@ -31,12 +26,12 @@ const About = () => {
 
                     <div className='tag-item'>
                         <FaCheckCircle color='blue' size={20} />
-                        <span>Frontend Performance Optimization</span>
+                        <span>Full-Stack Development</span>
                     </div>
 
                     <div className='tag-item'>
                         <FaCheckCircle color='blue' size={20} />
-                        <span>Clean Code</span>
+                        <span>Clean & Maintainable Code</span>
                     </div>
 
                     <div className='tag-item'>
